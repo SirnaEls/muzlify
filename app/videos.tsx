@@ -48,9 +48,9 @@ export default function Videos() {
           >
             <h2>{video.snippet.title}</h2>
             <iframe
-              className="rounded-[30px]"
+              className="rounded-[30px] md:w-full"
               title={video.snippet.title}
-              width="560"
+              width="350"
               height="315"
               src={`https://www.youtube.com/embed/${video.id.videoId}`}
               allowFullScreen
