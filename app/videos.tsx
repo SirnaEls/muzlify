@@ -37,7 +37,7 @@ export default function Videos() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
+    <div className="video-container flex flex-col items-center justify-between p-24">
       <SearchBar onSearch={handleSearch} />
 
       <ul className="flex flex-col gap-5">
